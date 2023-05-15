@@ -16,6 +16,11 @@ body {
   color: darkmagenta;
 }
 
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .sidebar {
   width: 300px;
   background: royalblue;
@@ -27,3 +32,14 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+ul {
+  list-style-type: none;
+  display: inline;
+  margin: auto;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; color:#7a7a7a }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
